@@ -1,6 +1,7 @@
 
 # dependencies
 **/node_modules/***
+note.md
 /node_modules
 /.pnp
 .pnp.js
