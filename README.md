@@ -2,4 +2,9 @@
 
 Tracking search job.
 
-Full stack application using MongoDB, ExpressJS, ReactJS and NodeJS.
+Full stack application using MERN:
+
+1. MongoDB
+2. ExpressJS
+3. ReactJS
+4. NodeJS.
