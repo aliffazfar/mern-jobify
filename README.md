@@ -2,7 +2,7 @@
 
 Tracking search job.
 
-Full stack application using MERN:
+Full stack application using MERN from scratch.
 
 1. MongoDB
 2. ExpressJS
