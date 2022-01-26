@@ -18,7 +18,6 @@ import errorHandlerMiddleware from './middleware/error-handler.js'
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  throw new Error('error')
   res.send('Welcome!')
 })
 
