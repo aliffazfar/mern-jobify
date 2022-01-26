@@ -1,12 +1,7 @@
 import Error from './Error'
 
 const Dashboard = () => {
-  return (
-    <h1>
-      <Error />
-      Dashboard
-    </h1>
-  )
+  return <h1>Dashboard </h1>
 }
 
 export default Dashboard
