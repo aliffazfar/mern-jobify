@@ -1,6 +1,19 @@
+import { useEffect } from 'react'
 import Error from './Error'
 
 const Dashboard = () => {
+  const fetchData = async () => {
+    try {
+      const response = await fetch('http://localhost:4444/')
+      const data = await response.json()
+      console.log(data)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  useEffect(() => {
+    fetchData()
+  }, [])
   return <h1>Dashboard </h1>
 }
 
