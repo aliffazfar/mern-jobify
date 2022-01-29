@@ -4,6 +4,7 @@ import Error from './Error'
 const Dashboard = () => {
   const fetchData = async () => {
     try {
+      // const response = await fetch('/data.json')
       const response = await fetch('http://localhost:4444/')
       const data = await response.json()
       console.log(data)
