@@ -5,14 +5,11 @@ import Logo from './Logo'
 import Wrapper from '../assets/wrappers/Navbar'
 
 const Navbar = () => {
+  const { toggleSidebar } = useAppContext()
   return (
     <Wrapper>
       <div className='nav-center'>
-        <button
-          type='button'
-          className='toggle-btn'
-          onClick={() => console.log('toggle sidebar')}
-        >
+        <button type='button' className='toggle-btn' onClick={toggleSidebar}>
           <FaAlignLeft />
         </button>
         <div>
