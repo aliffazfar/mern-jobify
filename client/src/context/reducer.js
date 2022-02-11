@@ -111,7 +111,9 @@ const reducer = (state, action) => {
     }
   }
   if (action.type === HANDLE_CHANGE) {
-    return { ...state, [action.payload.name]: action.payload.value }
+    // set back to first page
+
+    return { ...state, page: 1, [action.payload.name]: action.payload.value }
   }
   if (action.type === CLEAR_VALUES) {
     const initialState = {
